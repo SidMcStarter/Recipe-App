@@ -1,0 +1,75 @@
+*{
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: palegoldenrod;
+}
+
+.inner-header {
+    width:  1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rosybrown;
+}
+
+body {
+    background-color: palegoldenrod;
+}
+
+span{
+    font-size: 70px;
+}
+
+.search-box{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: tan;
+    background-color: saddlebrown;
+}
+
+input[type="text"]{
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+}
+input::placeholder{
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: pink;
+
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 30px;
+}
+h6{
+    color: darkgreen;
+    font-size: 20px;
+    margin-top:  5px;
+}
+
+button{
+    border: solid 2px brown;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(188, 188, 197)
+}
+
+.no-recipe{
+    color: crimson;
+    font-size: 50px;
+}

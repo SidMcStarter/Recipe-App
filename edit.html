@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/edit-style.css">
+        <title>Recipe App</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="inner-header">
+                <h1 id="recipe" class="title"></h1>
+            </div>
+        </div>
+        <div class="edit-home">
+            <button class="home-button">            
+                <a href="./index.html" class="home">Home</a>
+            </button>
+        </div>
+        <h4>Edit Recipe Name</h4>
+            <input type="text" placeholder="Enter Recipe Name" id="recipe-name" size="25" class="title-input">
+            <p></p>
+                <div>
+                    <h4>Steps for your Recipe</h4>
+                    <textarea name="step" placeholder="Write Your Steps Here" rows="8" cols="60" id="new-step"></textarea>
+                </div>
+            <p></p>
+
+             <h4>Ingredients<span class="parenthesis">(checkbox: if you have the ingredient or not)</span></h4>
+            <div id="show-ingredients">
+            </div>
+            <form id="new-ingredient">
+                <input class="new-ingredient-input" type="text" name="ingredient" placeholder="List Your Ingredients Here">
+                <p></p>
+                <button class="add-ingredient">Add Ingredient</button>
+            </form>
+
+            <p></p>
+
+            <h3>Danger Zone</h6>
+            <button id="remove-recipe" class="remove-recipe">Remove Recipe</button>
+        <script src="/scripts/recipe-bundle.js"></script>
+    </body>
+</html>

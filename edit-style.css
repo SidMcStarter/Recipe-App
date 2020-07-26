@@ -1,0 +1,165 @@
+*{
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: palegoldenrod;
+}
+
+
+.inner-header {
+    width:  1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rosybrown;
+}
+
+.title {
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.home {
+    text-decoration: none;
+    font-family: "sans-serif";
+    font-size: 20px;
+    color: rgb(53, 18, 167);
+}
+
+.edit-home{
+    padding: 20px;
+}
+
+body{
+    background-color: palegoldenrod;
+}
+
+.home-button{
+    border: black solid 2px;
+    background-color: pink
+}
+
+.home-button:hover{
+    background-color: rgb(241, 85, 85);
+}
+
+.title-input{
+    padding: 10px;
+    background-color: powderblue;
+    border: 2px solid black;
+}
+.title-input::placeholder{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.title-input[type="text"]{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: darkslateblue;
+}
+
+textarea{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    border: solid 2px rgb(32, 30, 30);
+    background-color: rgb(113, 138, 192);
+}
+
+textarea::placeholder{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+.ingredient-name{
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: midnightblue;
+}
+
+.remove-ingredient{
+    margin-bottom: 40px;
+    background-color: rgb(223, 159, 20);
+}
+
+.remove-ingredient:hover{
+    cursor: pointer;
+    background-color: rgb(196, 126, 13);
+}
+
+.ingredient-check{
+    border: solid midnightblue 2px;
+    size: 100px;
+}
+
+.new-ingredient-input{
+    border: darkviolet 2px solid;
+    font-size: 20px;
+    background-color: rgb(149, 115, 163);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.new-ingredient-input::placeholder{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add-ingredient{
+    border: 2px solid black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+
+}
+
+.add-ingredient:hover{
+    cursor: pointer;
+    background-color: rgb(236, 187, 107);
+}
+
+.checkbox:hover{
+    cursor: pointer;
+}
+
+h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 79, 88);
+}
+
+.parenthesis{
+    font-size: 20px;
+}
+
+.remove-recipe{
+    border: 2px black solid;
+    background-color: rgb(240, 89, 89);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.remove-recipe:hover{
+    background-color: red;
+    cursor: pointer;
+}
